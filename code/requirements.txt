@@ -1,0 +1,14 @@
+# Core pipeline (data_loader, text_signals, risk_detector, personalization,
+# history_engine, decision_engine, output_writer) uses only the Python
+# standard library and will run with zero installed packages.
+#
+# The packages below are optional and only used by ocr_processor.py to read
+# text out of image messages. If they are not installed, ocr_processor.py
+# degrades gracefully to a no-OCR heuristic instead of crashing.
+
+pytesseract>=0.3.10
+Pillow>=10.0.0
+
+# Only required if you set ENABLE_LLM_ENRICHMENT=true in .env (see
+# llm_client.py). Not required for the default deterministic pipeline.
+anthropic>=0.40.0

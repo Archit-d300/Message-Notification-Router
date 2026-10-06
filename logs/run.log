@@ -1,0 +1,5 @@
+2026-08-02 16:52:50,133 [INFO] orchestrate.main: Loading dataset from C:\Users\Archit\Downloads\code-fixed\dataset
+2026-08-02 16:52:50,151 [INFO] orchestrate.data_loader: Loaded dataset: 54 users, 23 groups, 110 businesses, 412 history messages, 412 events, 110 to route
+2026-08-02 16:52:50,155 [WARNING] orchestrate.ocr_processor: Tesseract OCR binary not found; falling back to no-OCR heuristic.
+2026-08-02 16:52:50,279 [INFO] orchestrate.output_writer: Wrote 110 predictions to C:\Users\Archit\Downloads\code-fixed\dataset\output.csv
+2026-08-02 16:52:50,279 [INFO] orchestrate.main: Done in 0.15s -- notify=25 digest=41 mute=44 (total=110)
